@@ -1,0 +1,71 @@
+/*police */
+@font-face {
+    font-family: "harryP";
+    src: url("../asset/fonts/HARRYP.ttf");
+}
+
+@font-face {
+    font-family: "lumos";
+    src: url("../asset/fonts/lumos.ttf");
+}
+
+@font-face {
+    font-family: "magicSchool";
+    src: url("../asset/fonts/magic-school.one.ttf");
+}
+
+@font-face {
+    font-family: "magicSchool2";
+    src: url("../asset/fonts/magic-school.two.ttf");
+}
+
+@font-face {
+    font-family: "magicStory";
+    src: url("../asset/fonts/MagicStory.otf");
+}
+/*mise en page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body {
+    background-image: url("../asset/img/fond_carte.jpg");
+    background-position: center;
+}
+h1{
+    font-family: harryP, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    color: #292c6d;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+article {
+    border: black solid;
+    border-radius: 25%;
+    background: white;
+    margin: 10px 10px;
+}
+a{
+    text-decoration: none;
+    color: #292c6d;
+    font-size: 1rem;
+}
+.choixTitre {
+    margin: 5px 5px;
+    padding: 2px 5px;
+}
+
+.choixImg {
+    width: 400px;
+    height: 400px;
+    border-radius: 25%;
+
+}

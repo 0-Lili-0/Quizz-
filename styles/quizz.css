@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "harryP";
+    src: url("../asset/fonts/HARRYP.ttf");
+}
+
+@font-face {
+    font-family: "lumos";
+    src: url("../asset/fonts/lumos.ttf");
+}
+
+@font-face {
+    font-family: "magicSchool";
+    src: url("../asset/fonts/magic-school.one.ttf");
+}
+
+@font-face {
+    font-family: "magicSchool2";
+    src: url("../asset/fonts/magic-school.two.ttf");
+}
+
+@font-face {
+    font-family: "magicStory";
+    src: url("../asset/fonts/MagicStory.otf");
+}
