@@ -32,14 +32,15 @@
 body {
     background-image: url("../asset/img/fond_carte.jpg");
     background-position: center;
+    position: relative;
 }
 h1{
     font-family: harryP, sans-serif;
     font-size: 4rem;
     text-align: center;
     margin: 0;
-    padding: 5px;
-    color: #292c6d;
+    padding: 30px 10px;
+    color: #a50c14;
 }
 section {
     display: flex;
@@ -52,20 +53,38 @@ article {
     border-radius: 25%;
     background: white;
     margin: 10px 10px;
+    width: 400px;
+    height: 400px;
 }
 a{
     text-decoration: none;
-    color: #292c6d;
+    color: #a50c14;
     font-size: 1rem;
 }
 .choixTitre {
-    margin: 5px 5px;
-    padding: 2px 5px;
+    padding: 0px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
 }
 
 .choixImg {
-    width: 400px;
-    height: 400px;
-    border-radius: 25%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    margin: -35px 30px;
+}
 
+p {
+    font-family: lumos, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 25px;
+    padding: 30px 10px;
+    color: #a50c14;
 }
